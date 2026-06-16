@@ -31,3 +31,4 @@ htmlcov/
 *.csv
 !tests/data/*.gtf
 !tests/data/*.gff3
+.github/workflows/ci.yml

@@ -30,17 +30,10 @@ and exporting expressible as Polars operations.
 
 ## Installation
 
-### From a local clone
-
-```bash
-git clone https://github.com/your-username/griffith.git
-cd griffith
-pip install -e .
-```
-
 ### With Conda
 
 ```bash
+git clone https://github.com/nliorni/griffith.git
 conda create -n griffith python=3.11 -c conda-forge
 conda activate griffith
 conda install -c conda-forge polars

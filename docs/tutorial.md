@@ -112,6 +112,12 @@ Inspect the schema:
 print(gf.schema())
 ```
 
+Inspect as a dataframe:
+
+```python
+gf.collect()
+```
+
 You should see the nine canonical GTF/GFF columns plus flattened attribute columns such as:
 
 ```text
